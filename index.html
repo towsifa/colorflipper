@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navbar</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+    
+<body>
+    <nav class="nav-bar-div">
+        <div class="div-right">
+            <h1>
+                Color Flipper
+            </h1>
+        </div>
+        <div class="div-left">
+            <ul>
+                <li id="normal" onclick="changen()">Simple</li>
+                <li id="abnormal" onclick="changeab()">Hex</li>
+            </ul>
+        </div>
+    </nav>
+    <main id="main-color">
+        <section>
+            <h1 class="col">Background Color : <span id="demo">#F1f5f8</span></h1>
+        </section>
+        <section>
+            <button id="mee" onclick="changeColor()">CLICK ME</button>
+        </section>
+    </main>
+    <script src="simple.js"></script>
+</body>
+
+</html>
